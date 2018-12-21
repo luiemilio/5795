@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#context-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+#context-menu-list {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+}
+
+#context-menu-list li {
+    border-bottom: 1px solid black;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
